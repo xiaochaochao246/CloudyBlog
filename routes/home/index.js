@@ -1,6 +1,6 @@
 var express = require('express');
 let MongoClient = require("mongodb").MongoClient
-const DB_STR= "mongodb://localhost:27017/myblog"
+const DB_STR= "mongodb://localhost:27017/chendachao"
 var router = express.Router();
 
 /* GET home page. */

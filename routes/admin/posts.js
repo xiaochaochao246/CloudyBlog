@@ -1,6 +1,6 @@
 let express=require("express");
 let MongoClient = require("mongodb").MongoClient;
-const DB_STR= "mongodb://localhost:27017/myblog";
+const DB_STR= "mongodb://localhost:27017/chendachao";
 let ObjectId=require("mongodb").ObjectId;
 var router=express.Router();
 //显示文章
